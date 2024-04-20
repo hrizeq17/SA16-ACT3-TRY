@@ -3,15 +3,28 @@
 {% block title %}Home | Developer Portfolio{% endblock %}
 
 {% block content %}
-    <section>
-        <h2>About Me</h2>
-        <p>Hello! I’m Hitham Rizeq, and I am a current student at the University of Memphis, studying computer science.</p>
-    </section>
-    <section>
-        <h2>What I Do</h2>
-        <ul>
-            <li>Web Development</li>
-            <li>Mobile Applications</li>
-        </ul>
-    </section>
+<header>
+    <h1>Welcome to My Professional Portfolio</h1>
+    <p>WHO AM I?</p>
+    
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>Hello! I’m Hitham Rizeq, and I am a current student at the University of Memphis, studying computer science.</p>
+</section>
+
+<section>
+    <h2>What I Do</h2>
+    <ul>
+      <li><strong>Web Development:</strong> Full-stack development services from the ground up, with a focus on frontend layout and backend functionality.</li>
+      <li><strong>Business Builder:</strong> Help people to start their business.</li>
+      <li><strong>Working at IMG:</strong> In charge of running the family business.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>Would you like to be my friend?</p>
+    <a href="{% url 'contact' %}">Contact Me</a>
+</footer>
 {% endblock %}
